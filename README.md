@@ -1,27 +1,38 @@
-# UserSearch
+# GitHub user search
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.3.
+This is a solution to the [GitHub user search app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/github-user-search-app-Q09YOgaH6). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-## Development server
+![Design preview](./src/assets/preview.jpg)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Technologies
 
-## Code scaffolding
+The technologies used in this design are:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+* HTML & CSS & Ts
+* Tailwind
+* Angular
 
-## Build
+## Features
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+* Github user's API has been integrated
+* Light-Dark theme
 
-## Running unit tests
+## Setup
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+To run this app in development mode open the terminal and write the following:
 
-## Running end-to-end tests
+```sh  
+git clone https://github.com/Zakaria9375/fm-github-user-search.git 
+cd fm-github-user-search  
+npm install 
+ 
+// you need to install angular cli to run this app in development mode
+npm install -g @angular/cli
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+ng serve
+```
 
-## Further help
+## Links
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+* [Challenge](https://www.frontendmentor.io/challenges/github-user-search-app-Q09YOgaH6)  
+* [Live](https://za-user-search.netlify.app/)
